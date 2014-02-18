@@ -1,0 +1,228 @@
+body {
+	font-size: 10px;
+	color: #B5B3F8;
+	font-family: verdana;
+	background: #090135 url(../images/bluenoise.jpg);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin:0;
+	scrollbar-face-color: #666666;
+	scrollbar-hightlight-color: #666666;
+	scrollbar-shadow-color: #333333;
+	scrollbar-3dlight-color: #333333;
+	scrollbar-arrow-color: #000000;
+	scrollbar-track-color: #777777;
+	scrollbar-darkshadow-color: #777777;
+}
+
+html, body {
+	border: none;
+}
+
+a { text-decoration: none; font-size: 10px; color: #1F0C04; font-weight: bold; }
+a:visited { color: #1F0C04; }
+a:hover { color: #1F0C04; }
+
+a.winUL { font-family: verdana, arial, helvetica, san serif; font-size: 11px; color: #1085D7; font-weight: bold; text-decoration: none; }
+a:visited.winUL { color: #0206AF; }
+a:hover.winUL { color: #B5B3F8; }
+
+a.barLinks { font-family: verdana, arial, helvetica, san serif; font-size: 12px; color: #020037; font-weight: bold; }
+a:visited.barLinks { color: #0E2A51; }
+a:hover.barLinks { color: #50007F; }
+
+a.plain { font-weight: normal; padding: 0px 0px 0px 0px; background-color: transparent; }
+a:visited.plain { font-weight: normal; padding: 0px 0px 0px 0px; background-color: transparent; }
+a:hover.plain { font-weight: normal; padding: 0px 0px 0px 0px; background-color: transparent; }
+
+a { text-decoration: none; font-size: 10px; color: #1F0C04; font-weight: bold; }
+a:visited { color: #1F0C04; }
+a:hover { color: #1F0C04; }
+
+a.topc { font-family: verdana, arial, helvetica, san serif; font-size: 9px; color: #1810FF; font-weight: bold; }
+a:visited.topc { color: #1810FF; }
+a:hover.topc { color: #B5B3F8; }
+
+a.copyright { color: #394173; }
+a:visited.copyright { color: #253342; }
+a:hover.copyright { color: #394173; }
+
+.windowbar {
+	font-size: 21px;
+	color: #07095E;
+	font-family: verdana;
+	font-weight: bold;
+	background-color: #B5B3F8;
+	background-image: url("../images/winbar.gif");
+	padding: 1px 3px 1px 12px;
+	border: #000 1px solid;
+	z-index: 9999;
+	display: block;
+	margin-top: 10px;
+	width: 525px;
+}
+
+.facecontent {
+    margin-top:15px;
+	margin-bottom:20px;
+	color: #B5B3F8;
+	font-size: 12px;
+	font-family: verdana;
+}
+
+.photoBorder { color: #A7BFE0; background-color: #A7BFE0; border: #A7BFE0 1px solid; }
+.blackBorder { color: #000000; background-color: #000000; border: #000000 1px solid; }
+
+#Zslider {
+	position: absolute;
+	left: -500;
+	top: 61;
+	width: 10;
+	height: 32;
+	z-index: 10000;
+	cursor: s-resize;
+	background-image: url(../images/scrolling/slider.gif);
+}
+
+#Zfront {
+	position: absolute;
+	left: -2000;
+	top: 6;
+	width: 648;
+	height: 472;
+	z-index: 100;
+}
+
+#Zfront table { border-collapse: collapse; }
+#Zfront table td, #Zfront table th { padding: 0; }
+
+#copyright {
+	position: absolute;
+	left: -4000;
+	top: 476;
+	width: 500;
+	height: 54;
+	font-family: helvetica, arial, verdana, san serif;
+	font-size: 9px;
+	color: #767DB1;
+	z-index: 2000;
+	text-align: right;
+}
+
+#copyleft {
+	position: absolute;
+	left: -4000;
+	top: 476;
+	width: 500;
+	height: 54;
+	font-family: helvetica, arial, verdana, san serif;
+	font-size: 9px;
+	color: #767DB1;
+	z-index: 2000;
+}
+
+#Zinterfaces {
+	position: absolute;
+	left: -2000;
+	top: 401;
+	width: 115;
+	height: 17;
+	z-index: 240;
+	cursor: pointer;
+}
+
+#Zdigitalimages {
+	position: absolute;
+	left: -2000;
+	top: 401;
+	width: 115;
+	height: 17;
+	z-index: 230;
+	cursor: pointer;
+}
+
+#Zfunzone {
+	position: absolute;
+	left: -2000;
+	top: 401;
+	width: 115;
+	height: 17;
+	z-index: 220;
+	cursor: pointer;
+}
+
+#Zwebclients {
+	position: absolute;
+	left: -2000;
+	top: 401;
+	width: 115;
+	height: 17;
+	z-index: 210;
+	cursor: pointer;
+}
+
+#Zaboutu4ea {
+	position: absolute;
+	left: -2000;
+	top: 401;
+	width: 115;
+	height: 17;
+	z-index: 200;
+	cursor: pointer;
+}
+
+#tempText {
+	position: absolute;
+	left: -2000;
+	top: 81;
+	width: 308;
+	height: 548;
+	z-index: 1;
+}
+
+#winBKG {
+	position: absolute;
+	left: -2000;
+	top: 128;
+	width: 551;
+	height: 310;
+	visibility: hidden;
+	filter: Alpha(opacity = 95);
+	-moz-opacity: 95%;
+	z-index: 3000;
+}
+
+#scrollStuff {
+	position: absolute;
+	left: -2000;
+	top: 128;
+	width: 8;
+	height: 301;
+	visibility: hidden;
+	z-index: 4000;
+}
+
+#textWrapper {
+	position: absolute;
+	left: -2000;
+	top: 110;
+	width: 548;
+	height: 308;
+	visibility: hidden;
+	cursor: crosshair;
+	clip: rect(0px, 548px, 308px, 0px);
+	z-index: 5000;
+}
+
+#loadedText {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 548;
+	font-family: verdana, arial, helvetica, san serif;
+	font-size: 10px;
+	color: #7386BD;
+	overflow: hidden;
+	z-index: 6000;
+}

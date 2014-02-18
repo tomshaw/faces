@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>U4EA: The Egyptian Scroll v1.0</title>
+<meta content="progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15, Duration=.5)" http-equiv="Page-Enter">
+<meta content="progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15, Duration=.5)" http-equiv="Page-Exit">
+<link type="text/css" rel="stylesheet" href="/css/styles.css">
+<script type="text/javascript" src="/js/main.js"></script>
+</head>
+
+<body class="loadedBody">
+
+<div id="ZFace">
+  <div id="sliderA" onMousedown="clickScroller()" class="slA">&nbsp;</div>
+  <div id="sliderB" onMousedown="clickScroller()" class="slA">&nbsp;</div>
+  <div ID="slide"><img src="/images/slider.gif" width=116 height=84 border=0 alt=""></div>
+  <div ID="sliderglass"><img src="/images/sliderglass.gif" width=110 height=73 border=0 alt=""></div>
+  <div ID="buttonhide"><nobr><a href="#" onMouseover="slidebug(0); return true"><img onClick="openClose(5)" src="/images/blank.gif" border=0 height=38 width=95 name="spartans" id="spartans"></a> <a href="#" onMouseover="slidebug(1); return true"><img onClick="openClose(6)" src="/images/blank.gif" border=0 height=38 width=95 name="gladiators" id="gladiators"></a> <a href="#" onMouseover="slidebug(2); return true"><img onClick="openClose(7)" src="/images/blank.gif" border=0 height=38 width=95 name="piramids" id="piramids"></a> <a href="#" onMouseover="slidebug(3); return true"><img onClick="openClose(8)" src="/images/blank.gif" border=0 height=38 width=95 name="egyptology" id="egyptology"></a></nobr></div>
+  <div ID="button1"><img src="/images/navtext/spartans.gif" width=95 height=28 border=0 alt=""></div>
+  <div ID="button2"><img src="/images/navtext/gladiators.gif" width=95 height=28 border=0 alt=""></div>
+  <div ID="button3"><img src="/images/navtext/piramids.gif" width=95 height=28 border=0 alt=""></div>
+  <div ID="button4"><img src="/images/navtext/egyptology.gif" width=95 height=28 border=0 alt=""></div>
+  <div id="ZEgyptFace">
+    <table>
+      <tr>
+        <td valign="top"><img src="/images/face/left.jpg" width=23 height=420 border=0 alt=""></td>
+        <td valign="top"><img src="/images/face/topbuttons.jpg" width=190 height=49 border=0 alt=""><br>
+          <img src="/images/face/leftboyking.jpg" width=21 height=60 border=0 alt=""><img
+onMouseover="ImgOn(0);window.status='Egypt: The Boy King Tut!'; return true;" onMouseout="ImgOff(0)" onClick="openClose(0)" src="/images/face/kingtut1.jpg" width=169 height=60 border=0 alt="" name="kingtut" id="kingtut"><br>
+          <img src="/images/face/spacer1.jpg" width=190 height=6 border=0 alt=""><br>
+          <img src="/images/face/leftnefertiti.jpg" width=21 height=60 border=0 alt=""><img
+onMouseover="ImgOn(1);window.status='Egypt: Queen Nefertiti!'; return true;" onMouseout="ImgOff(1)" onClick="openClose(1)" src="/images/face/nefertiti1.jpg" width=169 height=60 border=0 alt="" name="nefertiti" id="nefertiti"><br>
+          <img src="/images/face/spacer2.jpg" width=190 height=6 border=0 alt=""><br>
+          <img src="/images/face/leftramsys.jpg" width=6 height=60 border=0 alt=""><img
+onMouseover="ImgOn(2);window.status='Egypt: King Ramsys!'; return true;" onMouseout="ImgOff(2)" onClick="openClose(2)" src="/images/face/kingramsys1.jpg" width=184 height=60 border=0 alt="" name="kingramsys" id="kingramsys"><br>
+          <img src="/images/face/spacer3.jpg" width=190 height=6 border=0 alt=""><br>
+          <img src="/images/face/leftspartacus.jpg" width=6 height=60 border=0 alt=""><img
+onMouseover="ImgOn(3);window.status='Egypt: Spartacus The Warrior!'; return true;" onMouseout="ImgOff(3)" onClick="openClose(3)" src="/images/face/spartacus1.jpg" width=166 height=60 border=0 alt="" name="ramsys" id="spartacus"><img
+src="/images/face/rightspartacus.jpg" width=18 height=60 border=0 alt=""><br>
+          <img src="/images/face/spacer4.jpg" width=190 height=6 border=0 alt=""><br>
+          <img src="/images/face/leftnero.jpg" width=6 height=60 border=0 alt=""><img
+onMouseover="ImgOn(4);window.status='Egypt: Nero!'; return true;" onMouseout="ImgOff(4)" onClick="openClose(4)" src="/images/face/nero1.jpg" width=166 height=60 border=0 alt="" name="ramsys" id="nero"><img
+src="/images/face/rightnero.jpg" width=18 height=60 border=0 alt=""><br>
+          <img src="/images/face/bottombuttons.jpg" width=190 height=47 border=0 alt=""></td>
+        <td valign="top"><img src="/images/face/leftwindow.jpg" width=32 height=420 border=0 alt=""></td>
+        <td valign="top"><img src="/images/face/topb.jpg" width=349 height=49 border=0 alt=""><br>
+          <img src="/images/face/windowarea.jpg" width=349 height=231 border=0 alt=""><br>
+          <img src="/images/face/bottomb.jpg" width=349 height=140 border=0 alt=""></td>
+        <td valign="top"><img src="/images/face/winright.jpg" width=15 height=420 border=0 alt=""></td>
+        <td valign="top"><img src="/images/face/righta.jpg" width=46 height=49 border=0 alt=""><br>
+          <img src="/images/scrolling/scrollup1.jpg" name="upRight" id="upRight" onMouseover="moveup();scrollReady(1);" onMouseout="clearTimeout(moveupvar)" onMousedown="scrollUpDown(1);" style="cursor:hand;" width=46 height=38 border=0 alt=""><br>
+          <img src="/images/scrolling/scrolldown1.jpg" name="downRight" id="downRight" onMouseover="movedown();scrollReady(-1);" onMouseout="clearTimeout(movedownvar)" onMousedown="scrollUpDown(-1);" style="cursor:hand;" width=46 height=37 border=0 alt=""><br>
+          <img src="/images/face/rightd.jpg" width=46 height=296 border=0 alt=""></td>
+        <td valign="top"><img src="/images/face/farright.jpg" width=25 height=420 border=0 alt=""></td>
+      </tr>
+    </table>
+  </div>
+  <div id="Zcopyright"> <nobr>- Contents copyright &copy;2004 by U4EA Designs!, all rights reserved. -</nobr></div>
+</div>
+
+<div id="textWrapper">
+  <div id="loadedText"></div>
+</div>
+
+<iframe name="tempText" id="tempText" width="1" height="1"></iframe>
+
+<div id="hiddenLoader"></div>
+
+<script>
+if (Zflag.IE){
+    var crossobj=document.getElementById? document.getElementById("loadedText") : document.all.loadedText
+    var loadedText=crossobj.offsetHeight
+} else if (Zflag.NS){
+    var crossobj=document.textWrapper.document.loadedText
+    var loadedText=crossobj.clip.height
+}
+</script>
+
+</body>
+</html>

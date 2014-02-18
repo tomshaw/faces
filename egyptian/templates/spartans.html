@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title></title>
+</head>
+
+<body id="theBody" class="loadedBody" onload="parent.showPage()">
+<!--#if expr="\"$HTTP_USER_AGENT\" != /.*MSIE.*/ && \"$HTTP_USER_AGENT\" != /.*Gecko.*/" -->
+<span class=yellowType>
+<!--#endif -->
+<div class="header">The Spartans!</div>
+<br>
+Use this page to adjust all of the aspects of the wingsen Wings Interface. Below are descriptions of the
+different variables you can adjust. If you want to change everything back to normal click the "Reset
+To Defaults". Have fun! :)
+<br>
+<br>
+<div class="divider"><a href="javascript:top.resetDefaults()">RESET EVERYTHING TO DEFAULTS!</a></div>
+<br>
+<div class="plain">Mouse-Following Rulers? - </div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('Zruler',1)"><b>"Yes"</b></a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('Zruler',0)">"No"</a></div>
+<br>
+<div class="plain">Do You Want The Lens Flares Zipping Across The Screen?</div>
+<br>
+<div class="divider"><a class="glow" href="javascript:top.setVariable('ZflareOnOff',1)"><b>"Yes"</b></a></div>
+<br>
+<div class="divider"><a class="glow" href="javascript:top.setVariable('ZflareOnOff',0)">"No"</a></div>
+<br>
+<div class="plain">Turn The Debug Mode On?</div>
+<br>
+<div class="divider"><a class="topc" href="javascript:top.setVariable('deBug',1)"><b>Debug Mode On!</b></a></div>
+<br>
+<div class="divider"><a class="topc" href="javascript:top.setVariable('deBug',0)"><b>Debug Mode Off!</b></a></div>
+<br>
+<div class="plain">Zlag:</div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('baseZlag',2)">2</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('baseZlag',4)"><b>4</b></a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('baseZlag',8)">8</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('baseZlag',12)">12</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('baseZlag',18)">18</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('baseZlag',24)">24</a></div>
+<br>
+<div class="plain">Set The <u>Refresh Rate!</u></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(1)">1 Second! - Real Fast!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(5)">5 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(10)"><b>10 Seconds!</b></a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(20)">20 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(30)">30 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(40)">40 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(50)">50 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(100)">100 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(200)">200 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(300)">300 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(400)">400 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(500)">500 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(600)">600 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(700)">700 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(800)">800 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setNewInterval(900)">REAL SLOW! 900 Seconds Jeesh :)</a></div>
+<br>
+<div class="plain">sleepTime(); Choose To Set How Long The Window Stays Open!</div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('sleepTime',30000);top.setVariable('noSleep',0)"><b>Leave The Window Open For 30 Seconds!</b></a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('sleepTime',60000);top.setVariable('noSleep',0)">Leave The Window Open For 60 Seconds!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('sleepTime',1200000);top.setVariable('noSleep',0)">Leave The Window Open For 2 Minutes!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('sleepTime',300000);top.setVariable('noSleep',0)">Leave The Window Open For 5 Minutes!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('noSleep',1)">Never Leave The Window Open!</a></div>
+<br>
+<div class="plain">saveWindow(); How Long Would You Like The Window To Stay <u>Saved</u>?</div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('saveWindow',2)"><b>Save The Window For 2 Minutes!</b></a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('saveWindow',5)"><b>Save The Window For 5 Minutes!</b></a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('saveWindow',15)">Save The Window For 15 Minutes!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('saveWindow',30)">Save The Window For 30 Minutes!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('saveWindow',60)">Save The Window For 1hr!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('saveWindow',120)">Save The Window For 2hrs!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('saveWindow',1440)">Save The Window For 24hrs!</a></div>
+<br>
+<div class="divider"><a href="javascript:top.setVariable('saveWindow',0)">Never Save The Window!</a></div>
+<br>
+<br>
+<b class="divider">Have fun and be cool, your amigo&nbsp; -U4EA-&nbsp;  :)</b>
+
+<br>
+
+<!--#if expr="\"$HTTP_USER_AGENT\" != /.*MSIE.*/ && \"$HTTP_USER_AGENT\" != /.*Gecko.*/" -->
+</span>
+<!--#endif -->
+</body>
+</html>
+

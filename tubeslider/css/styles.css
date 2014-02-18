@@ -1,0 +1,165 @@
+body {
+	font-size: 9px;
+	color: #302BF3;
+	font-family: verdana;
+	font-weight: bold;
+	scrollbar-face-color: #080052;
+	scrollbar-shadow-color: #160400;
+	scrollbar-highlight-color: #080095;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-darkshadow-color: #000000;
+	scrollbar-track-color: #070127;
+	scrollbar-arrow-color: #FF0000;
+}
+
+#button1 {
+	position: absolute;
+	left: 109;
+	width: 95;
+	top: 350;
+	z-index: 4000;
+}
+
+#button2 {
+	position: absolute;
+	left: 204;
+	width: 95;
+	top: 350;
+	z-index: 4000;
+}
+
+#button3 {
+	position: absolute;
+	left: 299;
+	width: 95;
+	top: 350;
+	z-index: 4000;
+}
+
+#button4 {
+	position: absolute;
+	left: 394;
+	width: 95;
+	top: 350;
+	z-index: 4000;
+}
+
+#buttonhide {
+	position: absolute;
+	left: 109;
+	width: 380;
+	top: 350;
+	z-index: 10000;
+	visibility: hidden;
+}
+
+#tvInfo {
+	position: absolute;
+	left: 134;
+	top: 80;
+	width: 315;
+	z-index: 6999;
+	visibility: hidden;
+}
+
+#button1drop {
+	position: absolute;
+	left: 137;
+	top: 87;
+	width: 315;
+	z-index: 7000;
+	visibility: hidden;
+}
+
+#button2drop {
+	position: absolute;
+	left: 137;
+	top: 87;
+	width: 315;
+	z-index: 7000;
+	visibility: hidden;
+}
+
+#button3drop {
+	position: absolute;
+	left: 137;
+	top: 87;
+	width: 315;
+	z-index: 7000;
+	visibility: hidden;
+}
+
+#button4drop {
+	position: absolute;
+	left: 137;
+	top: 87;
+	width: 315;
+	z-index: 7000;
+	visibility: hidden;
+}
+
+#footer {
+	position: absolute;
+	left: 75;
+	width: 470;
+	top: 405;
+	z-index: 9000;
+}
+
+#slide {
+	position: absolute;
+	left: 144;
+	width: 95;
+	top: 348;
+	z-index: 3000;
+}
+
+#rip {
+	position: absolute;
+	left: 144;
+	width: 95;
+	top: 348;
+	z-index: 3500;
+	visibility: hidden;
+}
+
+#yellowBack {
+	position: absolute;
+	left: 80;
+	width: 463;
+	top: 347;
+	z-index: 1000;
+}
+
+#theTube {
+	position: absolute;
+	left: 52;
+	width: 490;
+	top: 10;
+	height: 408;
+	z-index: 6000;
+}
+
+a.footer {
+	font-family: verdana, arial, helvetica, san serif;
+	font-size: 9px;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+a:visited.footer {
+	color: #1000A5;
+	text-decoration: none;
+}
+
+a:hover.footer {
+	color: #CCFF00;
+	text-decoration: underline;
+	color: #FFFC00;
+}
+
+td,p {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 9px;
+	color: #080095;
+}

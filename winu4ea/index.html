@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>winU4EA - v2.0</title>
+<meta http-equiv="Refresh" content="240;url=index.html">
+<meta content="progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15, Duration=.5)" http-equiv="Page-Enter">
+<meta content="progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15, Duration=.5)" http-equiv="Page-Exit">
+<link type="text/css" rel="stylesheet" href="/css/styles.css">
+<script type="text/javascript" src="/js/main.js"></script>
+</head>
+
+<body onLoad="delayedSetup()" onUnload="setCookie()">
+
+<div id="Zfront">
+  <table>
+    <tr>
+      <td><img src="/images/interface/left.gif" width="58" height="472" border="0" alt="" /></td>
+      <td valign="top"><img src="/images/interface/top.gif" width="555" height="73" border="0" alt="" /><br />
+        <img src="/images/interface/window.gif" width="555" height="309" border="0" alt="" /><br />
+        <img src="/images/interface/btnrow.gif" width="555" height="38" border="0" alt="" /><br />
+        <img src="/images/interface/firstpart.gif" width="358" height="29" border="0" alt="" /><a
+href="javascript:changeJustify()" onmouseover="imageOn(5);window.status='Change Sides!';return true;" onmouseout="imageOff(5)"><img
+src="/images/buttons/btnleft1.gif" name="btnleft" id="btnleft" width="27" height="29" border="0" alt="Change Sides!" /></a><img src="/images/interface/spacer1.gif" width="5" height="29" border="0" alt="" /><a
+href="javascript:changeJustify()" onmouseover="imageOn(6);window.status='Change Sides!';return true;" onmouseout="imageOff(6)"><img
+src="/images/buttons/btnright1.gif" name="btnright" id="btnright" width="27" height="29" border="0" alt="Change Sides!" /></a><img src="/images/interface/spacer2.gif" width="9" height="29" border="0" alt="" /><a
+href="javascript:alert(unescape(document.cookie))" onmouseover="imageOn(7);window.status='Grab The Cookie!';return true;" onmouseout="imageOff(7)"><img
+src="/images/buttons/getcookie1.gif" name="getcookie" id="getcookie" width="31" height="29" border="0" alt="Grab The Cookie!" /></a><img src="/images/interface/spacer3.gif" width="9" height="29" border="0" alt="" /><a
+href="javascript:openClose(8)" onmouseover="imageOn(8);window.status='Set Window Behavior!';return true;" onmouseout="imageOff(8)"><img
+src="/images/buttons/setpref1.gif" name="setpref" id="setpref" width="27" height="29" border="0" alt="Set Window Behavior!" /></a><img src="/images/interface/spacer4.gif" width="4" height="29" border="0" alt="" /><a
+href="javascript:replayIntro()" onmouseover="imageOn(9);window.status='Reload The Window!';return true;" onmouseout="imageOff(9)"><img
+src="/images/buttons/reload1.gif" name="reload" id="reload" width="27" height="29" border="0" alt="Reload The Window!" /></a><img src="/images/interface/spacer5.gif" width="4" height="29" border="0" alt="" /><a
+href="javascript:top.setVariable('debug',1)" onmouseover="imageOn(10);window.status='Debug Mode!';return true;" onmouseout="imageOff(10)"><img
+src="/images/buttons/debug1.gif" name="debug" id="debug" width="27" height="29" border="0" alt="Debug Mode!" /></a><br />
+      <img src="/images/interface/bottom.gif" width="555" height="23" border="0" alt="" /></td>
+      <td><img src="/images/interface/right.gif" width="35" height="472" border="0" alt="" /></td>
+    </tr>
+  </table>
+</div>
+
+<div id="Zaboutu4ea"> <img onmouseover="imageOn(0); window.status='What Is U4EA?!'; return true;" onmouseout="imageOff(0)" onclick="openClose(0)" name="aboutu4ea" id="aboutu4ea" src="/images/buttons/aboutu4ea1.gif" width="115" height="17" border="0" alt="" /> </div>
+<div id="Zwebclients"> <img onmouseover="imageOn(1); window.status='Web Design Clients!'; return true;" onmouseout="imageOff(1)" onclick="openClose(1)" name="webclients" id="webclients" src="/images/buttons/webclients1.gif" width="115" height="17" border="0" alt="" /> </div>
+<div id="Zfunzone"> <img onmouseover="imageOn(2); window.status='The Fun Zone!'; return true;" onmouseout="imageOff(2)" onclick="openClose(2)" name="funzone" id="funzone" src="/images/buttons/funzone1.gif" width="115" height="17" border="0" alt="" /> </div>
+<div id="Zdigitalimages"> <img onmouseover="imageOn(3); window.status='Digital Images!'; return true;" onmouseout="imageOff(3)" onclick="openClose(3)" name="digitalimages" id="digitalimages" src="/images/buttons/digitalimages1.gif" width="115" height="17" border="0" alt="" /> </div>
+<div id="Zinterfaces"> <img onmouseover="imageOn(4); window.status='Interface Design!'; return true;" onmouseout="imageOff(4)" onclick="openClose(4)" name="interfacedesign" id="interfacedesign" src="/images/buttons/interfacedesign1.gif" width="115" height="17" border="0" alt="" /> </div>
+
+<div id="winBKG">
+<table>
+  <tr>
+    <td height="306" width="555" background="/images/interface/win-background.gif"><img src="/images/blank.gif" height="306" width="551" border="0"></td>
+  </tr>
+</table>
+</div>
+
+<div id="scrollStuff">
+<a href="#" onmouseover="scrollUp()" onclick="scrollUp()" onmouseout="stopScroll()"><img src="/images/scrolling/uparrow.gif" width="8" height="10" border="0" /></a><br />
+<a href="#" onmouseover="pageUpDown()" onclick="pageUpDown()" onmouseout="stopScroll()"><img src="/images/scrolling/scrollline.gif" width="8" height="281" border="0" style="cursor:s-resize" /></a><br />
+<a href="#" onmouseover="scrollDown()" onclick="scrollDown()" onmouseout="stopScroll()"><img src="/images/scrolling/downarrow.gif" width="8" height="10" border="0" /></a><br />
+</div>
+
+<div id="textWrapper"><div id="loadedText">Please wait, loading... <img src="/images/clock.gif" width="7" height="7" border="0"></div></div>
+
+<iframe name="tempText" id="tempText" width="320" height="24"></iframe>
+
+<div id="Zslider" onmouseover="dragSlider();" onmouseout="endDragSlider()"></div>
+
+<div id="copyLeft"> - Entire contents <a href="copyright/index.html" class="copyright" target="_top" onmouseover="window.status='Copyright © By Tom Shaw 2004 all rights reserved'; return true">copyright &copy; 2004</a> by <a href="mailto:tom@tomshaw.info" class="copyright" onmouseover="window.status='Email Me!'; return true">Tom Shaw</a>, all rights reserved. -</div>
+<div id="copyRight"> - Entire contents <a href="copyright/index.html" class="copyright" target="_top" onmouseover="window.status='Copyright © By Tom Shaw 2004 all rights reserved'; return true">copyright &copy; 2004</a> by <a href="mailto:tom@tomshaw.info" class="copyright" onmouseover="window.status='Email Me!'; return true">Tom Shaw</a>, all rights reserved. -</div>
+
+</body>
+</html>
