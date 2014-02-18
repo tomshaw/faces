@@ -1,6 +1,6 @@
 # Faces Photoshop Interfaces Designs
 
-  Some interesting photoshop interface designs I worked on over a decade ago. Surprisingly enough they still work.
+  Some interesting photoshop interface designs I worked on over a decade ago. Surprisingly enough after a little coaxing they still work.
   
 ## Running
 
