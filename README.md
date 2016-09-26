@@ -1,6 +1,6 @@
-# Faces Photoshop Interfaces Designs
+# Photoshop Interfaces Designs
 
-  Some interesting photoshop interface designs I worked on over a decade ago. Surprisingly enough after a little coaxing they still work.
+  Decade old Photoshop interface designs powered by javascript. Surprisingly enough after a little coaxing they still work.
   
 ## Running
 
